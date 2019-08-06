@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        sh 'touch test.txt'
+        echo 'touch test.txt'
       }
     }
     stage('Production') {
